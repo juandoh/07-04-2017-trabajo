@@ -84,7 +84,9 @@ int fileList(char *dir)
     }
     closedir(mydir);
     //printf("cantidad:---%i\n", prueba);
-    return prueba;
+    printf("Total archivos: %i\n", numfiles);
+    printf("Total bytes: %i\n", prueba);
+    return numfiles;
     //total(numfiles);
 }
 
